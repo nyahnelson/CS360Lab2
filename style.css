@@ -1,0 +1,93 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Feb 1, 2023, 1:32:28 PM
+    Author     : nyahnelson
+*/
+
+body {
+  background-color: #5A9754;
+}
+/* all h1 will be blue*/
+h1 {
+  color: white;
+  text-align: center;
+}
+/* all paragraphs will be red*/
+p {
+  color: black;
+}
+
+/* NAV BAR STUFF: */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  width: 500px;
+  margin: auto; /* center bar */
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #000000;
+  color: white;
+}
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  width: 500px;
+}
+
+.bottomnav{
+  background-color: #333;
+  overflow: hidden;
+  margin: auto; /* center bar */
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.bottomnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.bottomnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.bottomnav a.active {
+  background-color: #000000;
+  color: white;
+}
+
+/* center something */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
